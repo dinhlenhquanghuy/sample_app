@@ -1,3 +1,39 @@
 en:
-  hello: "Hello world"
-  sampleApp: "Sample App"
+  layouts:
+    application:
+      title: home
+      subtitle: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    about:
+      rort: Ruby on Rails Tutorial
+      ror: Ruby on Rails
+      title: About
+      header: About
+      is_a: is a
+      the: The
+      book: book
+      and: and
+      screencast_series: screencast series
+      teach: to teach web development with
+      sample: This is the sample application for the tutorial
+    contact:
+      rort: Ruby on Rails Tutorial
+      ror: Ruby on Rails
+      title: Contact
+      header: Contact
+      contact: Contact the Ruby on Rails Tutorial about the sample app at the
+      page: contact page
+    help:
+      rort: Ruby on Rails Tutorial
+      ror: Ruby on Rails
+      title: Help
+      header: Help
+      get_help: Get help on the Ruby on Rails Tutorial at the
+      to_get_help: To get help on this sample app, see the
+    home:
+      rthp: Rails Tutorial help section
+      rort: Ruby on Rails Tutorial
+      title: Home
+      header: Sample App
+      home: This is the home page for the
+      sample: sample application
