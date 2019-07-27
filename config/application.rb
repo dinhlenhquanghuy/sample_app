@@ -16,16 +16,7 @@ module SampleApp
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.i18n.load_path += Dir[Rails.root.join("config","locales","**", "*.{rb,yml}")]
-<<<<<<< HEAD
-<<<<<<< HEAD
-    config.i18n.available_locales = [:en, :vi]
-=======
-    config.i18n.vailable_locales = [:en, :vi]
->>>>>>> chapter_4
-    config.i18n.default_locale = :vi
-=======
     config.i18n.available_locales = [:en, :vi]
     config.i18n.default_locale = :en
->>>>>>> chapter_5
   end
 end
