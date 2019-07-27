@@ -31,12 +31,8 @@ en:
       new_user: New user? 
       signup: Sign up
       rmm: Remember me on this computer
-    create:
-<<<<<<< HEAD
-      inv: Invalid email/password combination    
-=======
+    create:  
          
->>>>>>> chapter_8
   static_pages:
     about:
       rort: Ruby on Rails Tutorial
