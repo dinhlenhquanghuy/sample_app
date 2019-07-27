@@ -1,7 +1,12 @@
 en:
   layouts:
     application:
+      about: About
+      contact: Contact
       title: home
+      home: home
+      help: help
+      login: login
       subtitle: "Ruby on Rails Tutorial Sample App"
   static_pages:
     about:
@@ -34,6 +39,12 @@ en:
       rthp: Rails Tutorial help section
       rort: Ruby on Rails Tutorial
       title: Home
-      header: Sample App
+      header: Welcome to the Sample App
       home: This is the home page for the
       sample: sample application
+      sun: Sign up now!
+  users:
+    new:
+      title: Sign up
+      header: Sign up
+      signup_page: This will be a signup page for new users.
