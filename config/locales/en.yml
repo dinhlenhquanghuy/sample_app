@@ -31,6 +31,7 @@ en:
       new_user: New user? 
       signup: Sign up
       rmm: Remember me on this computer
+      forgot_pass: (Forgot Password)
     create:
       inv: Invalid email/password combination    
   static_pages:
@@ -91,6 +92,16 @@ en:
     index:
       title: All users
       header: All users
+  password_resets:
+    new:
+      forgot_pass: Forgot Password
+      email: Email
+      submit: Submit
+    edit:
+      reset_pass: Reset Password
+      password: Password
+      confirm: Password confirm
+      update: Update Password
   shared:
     error_messages:    
       tfc: The form contains
@@ -99,6 +110,15 @@ en:
         other: "%{count} errors"
   invalid: Invalid email/password combination 
   subtitle: Ruby on Rails Tutorial Sample App
+  password_expired: Password reset has expired!
+  password_reseted: Password has been reset
+  cant_blank: can't be empty
+  email_not_found: Email address not found
+  email_sented: Email sent with password reset instructions
+  password_reset: Password Reset
+  click_to_reset: Click link below to reset password
+  reset_pass: Reset Password
+  warning: This link will expire in two hours.
   please: Please log in.
   delete: Deleted user!
   delete_false: Delete false!

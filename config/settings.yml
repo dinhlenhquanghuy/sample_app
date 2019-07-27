@@ -7,3 +7,5 @@ size: 80
 per_page: 10
 paginate: 10
 check_re: 1
+paginate: 10
+time_expired: 2
