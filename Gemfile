@@ -5,8 +5,10 @@ ruby "2.5.5"
 gem "bcrypt", "3.1.12"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bootstrap-sass", "3.3.7"
+gem "bootstrap-will_paginate"
 gem "coffee-rails", "4.2.2"
 gem "config"
+gem "faker", "1.7.3"
 gem "jbuilder", "2.7.0"
 gem "jquery-rails", "4.3.1"
 gem "puma", "~> 3.11"
@@ -16,9 +18,7 @@ gem "sass-rails", "~> 5.0"
 gem "sqlite3"
 gem "turbolinks", "5.0.1"
 gem "uglifier", "3.2.0"
-gem "faker", "1.7.3"
 gem "will_paginate"
-gem "bootstrap-will_paginate"
 
 group :development, :test do
   gem "byebug", "9.0.6", platform: :mri

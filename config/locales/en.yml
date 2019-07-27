@@ -31,8 +31,8 @@ en:
       new_user: New user? 
       signup: Sign up
       rmm: Remember me on this computer
-    create:  
-         
+    create:
+      inv: Invalid email/password combination    
   static_pages:
     about:
       rort: Ruby on Rails Tutorial
@@ -70,15 +70,26 @@ en:
       sun: Sign up now!
   users:
     new:
-      title: Sample app!
+      title: Sign up!
       header: Sign up
+      btt: Create my account
+    create:
+      flash: Welcome to the Sample App!
+    form:
       name: Name
       email: Email
       password: Password
       confirmation: Password confirmation
-      create: Create my account
       signup_page: This will be a signup page for new users
-      flash: Welcome to the Sample App!
+    edit:
+      title: Edit user!
+      header: Update your profile
+      btt: Save change
+      change: Change
+      pli: Please login!
+    index:
+      title: All users
+      header: All users
   shared:
     error_messages:    
       tfc: The form contains
