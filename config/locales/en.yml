@@ -76,6 +76,7 @@ en:
     create:
       flash: Welcome to the Sample App!
     form:
+      create: Create my account
       name: Name
       email: Email
       password: Password
@@ -97,4 +98,14 @@ en:
         one: 1 error
         other: "%{count} errors"
   invalid: Invalid email/password combination 
-  subtitle: subtitle
+  subtitle: Ruby on Rails Tutorial Sample App
+  please: Please log in.
+  delete: Deleted user!
+  delete_false: Delete false!
+  account_actived: Account activated!
+  invalid_active: Invalid activation link!
+  please_check: Please check your email to activate your account.
+  activation: Account activation
+  activate: Activate
+  welcome_click: Welcome to the Sample App! Click on the link below to activate your account
+  hi: Hi

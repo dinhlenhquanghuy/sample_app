@@ -1,29 +1,26 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, except: %i(new creat show)
+  before_action :logged_in_user, except: %i(new create show)
   before_action :find_user, except: %i(index new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
-
-  def index
-    @users = User.paginate(page: params[:page], per_page: Settings.per_page)
-  end
 
   def new
     @user = User.new
   end
 
-  def show; end
+  def index
+    @users = User.paginate(page: params[:page])
+  end
 
   def edit; end
 
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "please_check"
+      redirect_to root_url
     else
-      flash[:danger] = t "danger"
       render :new
     end
   end
