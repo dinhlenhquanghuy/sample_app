@@ -45,6 +45,21 @@ en:
       sun: Sign up now!
   users:
     new:
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Password confirmation
+      create: Create my account
       title: Sign up
       header: Sign up
       signup_page: This will be a signup page for new users.
+    
+    create:
+      flash: Welcome to the Sample App!
+  shared:
+    error_messages:    
+      tfc: The form contains
+      ec:
+        one: 1 error
+        other: "%{count} errors"
+  no_user: No user
