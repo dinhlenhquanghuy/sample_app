@@ -34,6 +34,11 @@ vi:
       rort: Hướng dẫn Ruby trên Rails
       ror: Ruby trên Rails
       title: Trang chủ
-      header: Trang chủ
+      header: Chào mừng đến với Sample App
       home: Đây là trang chủ của
       sample: ứng dụng mẫu
+  users:
+    new:
+      title: Đăng ký
+      header: Đăng ký
+      signup_page: Đây là trang đăng ký cho người dùng mới.
