@@ -1,0 +1,39 @@
+vi:
+  layouts:
+    application:
+      title: Ứng dụng mẫu
+      subtitle: Ứng dụng mẫu Ruby trên Rails
+  static_pages:
+    about:
+      rort: Hướng dẫn Ruby trên Rails
+      ror: Ruby trên Rails
+      title: Giới thiệu
+      header: Giới thiệu
+      is_a: là
+      the: Sách
+      book: sách
+      and: và
+      screencast_series: các tập trình chiếu
+      teach: dạy lập trình web bằng
+      sample: Đây là ứng dụng mẫu
+    contact:
+      rort: Hướng dẫn Ruby trên Rails
+      ror: Ruby trên Rails
+      title: Liên lạc
+      header: Liên lạc
+      contact: Liên hệ tại
+      page: trang liên lạc
+    help:
+      rthp: mục hướng dẫn Ruby trên Rails
+      rort: Hướng dẫn Ruby trên Rails
+      title: Trợ giúp
+      header: Trợ giúp
+      get_help: Nhận trợ giúp Ruby trên Rails tại
+      to_get_help: Để nhận trợ giúp cho Ứng dụng mẫu, xem sách
+    home:
+      rort: Hướng dẫn Ruby trên Rails
+      ror: Ruby trên Rails
+      title: Trang chủ
+      header: Trang chủ
+      home: Đây là trang chủ của
+      sample: ứng dụng mẫu
