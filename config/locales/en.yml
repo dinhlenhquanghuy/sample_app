@@ -1,13 +1,38 @@
 en:
   layouts:
     application:
+      title: SampleApp
+      subtitle: Ruby on Rails Tutorial Sample App
+    header: 
+      sa: sample app
+      home: Home
+      help: Help
+      login: Log in
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      logout: Log out
+    footer:
+      the: The
+      rort: Ruby on Rails Tutorial
+      by: by
+      mh: Michael Hartl
       about: About
       contact: Contact
-      title: home
-      home: home
-      help: help
-      login: login
-      subtitle: "Ruby on Rails Tutorial Sample App"
+      news: News
+  sessions:
+    new:
+      title: Login
+      login: Login
+      email: email
+      password: password
+      login: Login
+      new_user: New user? 
+      signup: Sign up
+      rmm: Remember me on this computer
+    create:
+      inv: Invalid email/password combination    
   static_pages:
     about:
       rort: Ruby on Rails Tutorial
@@ -45,6 +70,18 @@ en:
       sun: Sign up now!
   users:
     new:
-      title: Sign up
+      title: Sample app!
       header: Sign up
-      signup_page: This will be a signup page for new users.
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Password confirmation
+      create: Create my account
+      signup_page: This will be a signup page for new users
+      flash: Welcome to the Sample App!
+  shared:
+    error_messages:    
+      tfc: The form contains
+      ec:
+        one: 1 error
+        other: "%{count} errors"
